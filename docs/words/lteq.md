@@ -21,10 +21,19 @@ Returns FALSE for all other values. For string-based datatypes, the sorting orde
 ```
 print "abc" <= "abd"
 true
+```
+
+```
 print 10-June-1999 <= 12-june-1999
 true
+```
+
+```
 print 4.3.2.1 <= 1.2.3.4
 false
+```
+
+```
 print 1:23 <= 10:00
 true
 ```

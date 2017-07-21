@@ -21,8 +21,14 @@ String-based datatypes are considered equal when they are identical or differ on
 ```
 print "abc" <> "abcd"
 true
+```
+
+```
 print [1 2 4] <> [1 2 3]
 true
+```
+
+```
 print 12-sep-98 <> 10:30
 true
 ```
