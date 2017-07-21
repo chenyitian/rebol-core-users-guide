@@ -2,18 +2,18 @@
 
 ## Contents:
 
-- [1. About REBOL](#section-1)
-- [2. About this Guide](#section-2)
-  - [2.1 Suggestion for New Programmers](#section-2.1)
-  - [2.2 Suggestion for Experienced Programmers](#section-2.2)
-- [3. Document Conventions](#section-3)
-- [4. Technical Support](#section-4)
-  - [4.1 Developer News and Information](#section-4.1)
-  - [4.2 Discussions and Forums](#section-4.2)
-  - [4.3 Bug Reports and Enhancement Requests](#section-4.3)
-  - [4.4 REBOL.org Script Library](#section-4.4)
-  - [4.5 New Alpha and Beta Releases](#section-4.5)
-- [5. Comments are Welcome](#section-5)
+- [1. About REBOL](#1-about-rebol)
+- [2. About this Guide](#2-about-this-guide)
+  - [2.1 Suggestion for New Programmers](#21-suggestion-for-new-programmers)
+  - [2.2 Suggestion for Experienced Programmers](#22-suggestion-for-experienced-programmers)
+- [3. Document Conventions](#3-document-conventions)
+- [4. Technical Support](#4-technical-support)
+  - [4.1 Developer News and Information](#41-developer-news-and-information)
+  - [4.2 Discussions and Forums](#42-discussions-and-forums)
+  - [4.3 Bug Reports and Enhancement Requests](#43-bug-reports-and-enhancement-requests)
+  - [4.4 REBOL.org Script Library](#44-rebol-org-script-library)
+  - [4.5 New Alpha and Beta Releases](#45-new-alpha-and-beta-releases)
+- [5. Comments are Welcome](#5-comments-are-welcome)
 
 ## 1. About REBOL
 
