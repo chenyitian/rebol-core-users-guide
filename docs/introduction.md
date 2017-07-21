@@ -11,7 +11,7 @@
   - [4.1 Developer News and Information](#41-developer-news-and-information)
   - [4.2 Discussions and Forums](#42-discussions-and-forums)
   - [4.3 Bug Reports and Enhancement Requests](#43-bug-reports-and-enhancement-requests)
-  - [4.4 REBOL.org Script Library](#44-rebol-org-script-library)
+  - [4.4 REBOL.org Script Library](#44-rebolorg-script-library)
   - [4.5 New Alpha and Beta Releases](#45-new-alpha-and-beta-releases)
 - [5. Comments are Welcome](#5-comments-are-welcome)
 
