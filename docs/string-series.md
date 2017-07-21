@@ -23,42 +23,42 @@ There are a wide variety of functions that operate on or produce strings. Functi
 
 The string creation, modification and search functions are covered in the [Series chapter](rebolcore-6.html#_Toc487519750). They include the items listed in [String Functions](#42807).
 
-|      | **copy**    | copy all or part of a string             |
-| ---- | ----------- | ---------------------------------------- |
-|      | **make**    | allocate storage for a string            |
-|      | **insert**  | insert a character or substring into another string |
-|      | **remove**  | remove one or more characters from a string |
-|      | **change**  | change one or more characters in a string |
-|      | **append**  | insert a character or substring at the tail of a string |
-|      | **find**    | find or match a character or string in another string |
-|      | **replace** | find a string and replace it with another string |
+| **copy**    | copy all or part of a string             |
+| ----------- | ---------------------------------------- |
+| **make**    | allocate storage for a string            |
+| **insert**  | insert a character or substring into another string |
+| **remove**  | remove one or more characters from a string |
+| **change**  | change one or more characters in a string |
+| **append**  | insert a character or substring at the tail of a string |
+| **find**    | find or match a character or string in another string |
+| **replace** | find a string and replace it with another string |
 
 In addition, the series traversing functions like **next**, **back**, **head**, and **tail** were covered. They are used to reposition in strings. In addition, the series test functions allow you to determine your position within a string.
 
 This chapter will introduce functions that convert REBOL values into strings. These functions are used often, and they are also used by the **print** and **probe** functions. They include:
 
-|      | **form**   | convert values with spaces and in human readable format |
-| ---- | ---------- | ---------------------------------------- |
-|      | **mold**   | convert values in REBOL readable format  |
-|      | **join**   | convert values with no spaces            |
-|      | **reform** | reduces values before forming them       |
-|      | **remold** | reduces values before molding them       |
-|      | **rejoin** | reduces values before joining them       |
+| **form**   | convert values with spaces and in human readable format |
+| ---------- | ---------------------------------------- |
+| **mold**   | convert values in REBOL readable format  |
+| **join**   | convert values with no spaces            |
+| **reform** | reduces values before forming them       |
+| **remold** | reduces values before molding them       |
+| **rejoin** | reduces values before joining them       |
 
 This chapter will also describes these string functions:
 
-|      | **detab**      | replace tabs with spaces                 |
-| ---- | -------------- | ---------------------------------------- |
-|      | **entab**      | replace spaces with tabs                 |
-|      | **trim**       | remove white space or lines around strings |
-|      | **uppercase**  | convert string to uppercase              |
-|      | **lowercase**  | convert string to lowercase              |
-|      | **checksum**   | compute a checksum for string            |
-|      | **compress**   | compress string                          |
-|      | **decompress** | decompress string                        |
-|      | **enbase**     | convert a string to base value           |
-|      | **debase**     | convert an enbased string to a string    |
-|      | **dehex**      | convert hexadecimal ASCII values to characters |
+| **detab**      | replace tabs with spaces                 |
+| -------------- | ---------------------------------------- |
+| **entab**      | replace spaces with tabs                 |
+| **trim**       | remove white space or lines around strings |
+| **uppercase**  | convert string to uppercase              |
+| **lowercase**  | convert string to lowercase              |
+| **checksum**   | compute a checksum for string            |
+| **compress**   | compress string                          |
+| **decompress** | decompress string                        |
+| **enbase**     | convert a string to base value           |
+| **debase**     | convert an enbased string to a string    |
+| **dehex**      | convert hexadecimal ASCII values to characters |
 
 ## 2. Converting Values to Strings
 
@@ -271,13 +271,13 @@ line of text with spaces around it
 
 Trim includes a number of refinements to specify where space is to be removed from a string:
 
-|      | **/head**  | removes space from the head of the string |
-| ---- | ---------- | ---------------------------------------- |
-|      | **/tail**  | removes space from the tail of the string |
-|      | **/auto**  | removes space from each line, relative to the first line |
-|      | **/lines** | removes newlines, replacing them with spaces |
-|      | **/all**   | - removes all whitespace                 |
-|      | **/with**  | removes all specified characters         |
+| **/head**  | removes space from the head of the string |
+| ---------- | ---------------------------------------- |
+| **/tail**  | removes space from the tail of the string |
+| **/auto**  | removes space from each line, relative to the first line |
+| **/lines** | removes newlines, replacing them with spaces |
+| **/all**   | - removes all whitespace                 |
+| **/with**  | removes all specified characters         |
 
 Use the **/head** and **/tail** refinements to trim from either end of a string:
 
@@ -427,10 +427,10 @@ Ukiah
 
 The **checksum** returns the checksum of the string value. There are three types of checksum that can be computed:
 
-|      | **CRC**    | 24 bit circular redundancy checksum |
-| ---- | ---------- | ----------------------------------- |
-|      | **TCP**    | standard Internet 16 bit checksum   |
-|      | **Secure** | a cryptographically secure checksum |
+| **CRC**    | 24 bit circular redundancy checksum |
+| ---------- | ----------------------------------- |
+| **TCP**    | standard Internet 16 bit checksum   |
+| **Secure** | a cryptographically secure checksum |
 
 By default, the CRC checksum is computed:
 

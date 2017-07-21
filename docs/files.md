@@ -183,11 +183,11 @@ For case-sensitive systems, such as UNIX, REBOL finds the closest case match to 
 
 Various functions are provided to help you create file names and paths. These are listed below in [File Name Functions](rebolcore-12.html#10794).
 
-|      | **to-file**    | Converts strings and blocks into a file name or file path. |
-| ---- | -------------- | ---------------------------------------- |
-|      | **split-path** | Splits a path into its directory part and its file name. |
-|      | **clean-path** | Returns the absolute path that is equivalent to any given path containing double dot (..) or dot (.). |
-|      | **what-dir**   | Returns the absolute path to the current directory. |
+| **to-file**    | Converts strings and blocks into a file name or file path. |
+| -------------- | ---------------------------------------- |
+| **split-path** | Splits a path into its directory part and its file name. |
+| **clean-path** | Returns the absolute path that is equivalent to any given path containing double dot (..) or dot (.). |
+| **what-dir**   | Returns the absolute path to the current directory. |
 
 ## 3. Reading Files
 

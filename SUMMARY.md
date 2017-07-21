@@ -16,7 +16,7 @@
 - [Objects](/docs/objects.md)
 - [Math](/docs/math.md)
 - [Files](/docs/files.md)
-- [NetworkProtocols](/docs/network-protocols.md)
+- [Network Protocols](/docs/network-protocols.md)
 - [Ports](/docs/ports.md)
 - [Parsing](/docs/parsing.md)
 - [Values](/docs/values.md)

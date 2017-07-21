@@ -1336,7 +1336,7 @@ Any of the loops can be stopped at any time by evaluating the **break** function
 
 ## 7. Searching Series
 
-[The **find** function searches through block or string series for a value or pattern. This function has many refinements that permit a wide range of variations in search parameters.]()
+The **find** function searches through block or string series for a value or pattern. This function has many refinements that permit a wide range of variations in search parameters.
 
 ### 7.1 Simple Find
 
@@ -1532,7 +1532,7 @@ while [text: find/reverse tail text newline] [
 
 ### 7.7 Matching
 
-[The **/match** refinement modifies the behavior of **find** to perform pattern matching on the current position of a series. This refinement allows parsing operations to be performed by matching the next part of a series with expected patterns. See the chapter on ]()[Parsing](rebolcore-15.html) for another way to match series.
+The **/match** refinement modifies the behavior of **find** to perform pattern matching on the current position of a series. This refinement allows parsing operations to be performed by matching the next part of a series with expected patterns. See the chapter on [Parsing](rebolcore-15.html) for another way to match series.
 
 A simple example of matching is as follows:
 
@@ -2182,7 +2182,6 @@ probe str
 change/dup blk "*" 4
 probe blk
 ["*" "*" "*" "*" 5 6]
-
 ```
 
 To insert a dash (-) four times before the last value in a string or block:

@@ -193,12 +193,12 @@ The last example evaluates a script called `script`.r in the same directory as t
 
 Scripts also have access to the options provided to the REBOL interpreter when it was started. These are found in the system/options object. The object contains the fields listed in [Object Fields](#16558) for system/options.
 
-|      | **Home**   | The file path as determined by your operating system's environment. This is the path set in the HOME environment variable or system registry for systems that support it. This is the path used to find the rebol.r and user.r files. |
-| ---- | ---------- | ---------------------------------------- |
-|      | **Script** | The file name of the initial script provided when the interpreter was launched. |
-|      | **Path**   | The path to the current directory.       |
-|      | **Args**   | The initial arguments provided to the interpreter on the command line. |
-|      | **Do-arg** | The string provided as an argument to the --do option on the command line. |
+| **Home**   | The file path as determined by your operating system's environment. This is the path set in the HOME environment variable or system registry for systems that support it. This is the path used to find the rebol.r and user.r files. |
+| ---------- | ---------------------------------------- |
+| **Script** | The file name of the initial script provided when the interpreter was launched. |
+| **Path**   | The path to the current directory.       |
+| **Args**   | The initial arguments provided to the interpreter on the command line. |
+| **Do-arg** | The string provided as an argument to the --do option on the command line. |
 
 The system/options object also contains additional options that were provided on the command line. Type
 
@@ -297,10 +297,10 @@ Note that a file does not require a header to be loaded. The header is necessary
 
 The **load** function supports a few refinements. The load Function Refinements lists the refinements and a description of their functionality:
 
-|      | **/header** | Includes the header if present.          |
-| ---- | ----------- | ---------------------------------------- |
-|      | **/next**   | Loads only the next value, one value at a time. This is useful for parsing REBOL scripts. |
-|      | **/markup** | Treats the file as an HTML or XML file and returns a block that holds its tags and text. |
+| **/header** | Includes the header if present.          |
+| ----------- | ---------------------------------------- |
+| **/next**   | Loads only the next value, one value at a time. This is useful for parsing REBOL scripts. |
+| **/markup** | Treats the file as an HTML or XML file and returns a block that holds its tags and text. |
 
 Normally, **load** does not return the header from the script. But, if the **/header** refinement is used the returned block contains the header object as its first argument.
 

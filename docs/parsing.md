@@ -931,7 +931,7 @@ probe items
 
 | Operator | Description                 |
 | -------- | --------------------------- |
-| \|       | alternate rule              |
+| &vert;        | alternate rule              |
 | [block]  | sub-rule                    |
 | (paren)  | evaluate a REBOL expression |
 

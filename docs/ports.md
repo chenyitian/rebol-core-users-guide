@@ -25,21 +25,24 @@ Ports access **external** series such as files, networks, consoles, events, data
 
 Ports are used for both input and output. The type of data a port handles depends on how the port is opened. Three types of data are possible:
 
+| Data Type  | Description                                     |
+| ---------- | ----------------------------------------------- |
 | **String** | a series of bytes, converts line breaks (default) |
-| ---------- | ---------------------------------------- |
 | **Binary** | a series of bytes, no conversion of the data |
 | **Block**  | a series of REBOL values                 |
 
 A port can be opened in one of two buffering modes:
 
+| Mode       | Description                                   |
+| ---------- | --------------------------------------------- |
 | **Buffered** | all of the data is held in memory (default) |
-| ------------ | ---------------------------------------- |
 | **Direct**   | data is not held in memory               |
 
 In addition, a port can be opened with:
 
+| Open Type  | Description                        |
+| ---------- | ---------------------------------- |
 | **Wait**    | port will wait for data (default) |
-| ----------- | --------------------------------- |
 | **No-wait** | port will not wait for data       |
 
 ## 2. Opening a Port
@@ -86,19 +89,20 @@ Once a port is open, the series operations such as **copy**, **insert**, **remov
 
 The open function accepts a number of refinements that can be used to modify its operation:
 
-| **/binary**  | port data is binary                      |
-| ------------ | ---------------------------------------- |
-| **/string**  | port data is text, translate all line terminators |
-| **/with**    | specify an alternate line termination    |
-| **/lines**   | handle data a line at a time or as a block of lines |
-| **/direct**  | do not buffer the port                   |
-| **/new**     | create or recreate the target of the port |
-| **/read**    | open for read only operation             |
-| **/write**   | open for write only operation            |
-| **/no-wait** | do not wait for data                     |
-| **/skip**    | skip part of the data                    |
-| **/allow**   | specify protection attributes of files   |
-| **/custom**  | allow special refinements                |
+| Operation Type  | Description                        |
+| --------------- | ---------------------------------- |
+| **/binary**     | port data is binary                      |
+| **/string**     | port data is text, translate all line terminators |
+| **/with**       | specify an alternate line termination    |
+| **/lines**      | handle data a line at a time or as a block of lines |
+| **/direct**     | do not buffer the port                   |
+| **/new**        | create or recreate the target of the port |
+| **/read**       | open for read only operation             |
+| **/write**      | open for write only operation            |
+| **/no-wait**    | do not wait for data                     |
+| **/skip**       | skip part of the data                    |
+| **/allow**      | specify protection attributes of files   |
+| **/custom**     | allow special refinements                |
 
 ## 3. Closing a Port
 

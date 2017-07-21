@@ -31,12 +31,12 @@
 
 There are several kinds of functions provided by REBOL:
 
-|      | **Native**    | A function that is evaluated directly by the processor. These are the lowest level functions of the language. |
-| ---- | ------------- | ---------------------------------------- |
-|      | **Function**  | A higher level function that is defined by a block and is evaluated by evaluating the functions within the block. Also called user-defined functions. |
-|      | **Mezzanine** | A name for higher level functions that are a standard part of the language. These are not native functions. |
-|      | **Operator**  | A function that is used as an infix operator. Examples are +, -, * and /. |
-|      | **Routine**   | A function that is used to call external library functions (REBOL/Command feature). |
+| **Native**    | A function that is evaluated directly by the processor. These are the lowest level functions of the language. |
+| ------------- | ---------------------------------------- |
+| **Function**  | A higher level function that is defined by a block and is evaluated by evaluating the functions within the block. Also called user-defined functions. |
+| **Mezzanine** | A name for higher level functions that are a standard part of the language. These are not native functions. |
+| **Operator**  | A function that is used as an infix operator. Examples are +, -, * and /. |
+| **Routine**   | A function that is used to call external library functions (REBOL/Command feature). |
 
 ## 2. Evaluating Functions
 
@@ -350,17 +350,17 @@ The interface specification is a dialect of REBOL (because it has different eval
 
 The fields of the specification block are:
 
-|      | **Description**                     | A short description of the function. This is a string that can be accessed by other functions such as help to output descriptions of functions. |
-| ---- | ----------------------------------- | ---------------------------------------- |
-|      | **Attributes**                      | A block that describes special properties of the function, such as its behavior on errors. It may be expanded in the future to include flags for optimizations. |
-|      | **Argument**                        | A variable that is used to access an argument from within the body of the function. |
-|      | **Arg Type**                        | A block that identifies the data types that are accepted by the function. If a data type not identified in this block is passed to the function, an error will occur. |
-|      | **Arg Description**                 | A short description of the argument. Like the function description, this can be accessed by other functions such as help. |
-|      | **Refinement**                      | A refinement word that indicates special behavior is required of the function. |
-|      | **Refinement Description**          | A short description of the refinement.   |
-|      | **Refinement Argument**             | A variable that is used by the refinement. |
-|      | **Refinement Argument Type**        | A block that identifies the data types that are accepted by the refinement. |
-|      | **Refinement Argument Description** | A short description of the refinement argument. |
+| **Description**                     | A short description of the function. This is a string that can be accessed by other functions such as help to output descriptions of functions. |
+| ----------------------------------- | ---------------------------------------- |
+| **Attributes**                      | A block that describes special properties of the function, such as its behavior on errors. It may be expanded in the future to include flags for optimizations. |
+| **Argument**                        | A variable that is used to access an argument from within the body of the function. |
+| **Arg Type**                        | A block that identifies the data types that are accepted by the function. If a data type not identified in this block is passed to the function, an error will occur. |
+| **Arg Description**                 | A short description of the argument. Like the function description, this can be accessed by other functions such as help. |
+| **Refinement**                      | A refinement word that indicates special behavior is required of the function. |
+| **Refinement Description**          | A short description of the refinement.   |
+| **Refinement Argument**             | A variable that is used by the refinement. |
+| **Refinement Argument Type**        | A block that identifies the data types that are accepted by the refinement. |
+| **Refinement Argument Description** | A short description of the refinement argument. |
 
 All of these fields are optional.
 

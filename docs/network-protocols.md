@@ -73,18 +73,19 @@ REBOL includes several of the primary Internet service protocols built-in. These
 
 The protocols listed in [Network Protocols](#50687) are supported:
 
-|      | **DNS**     | Domain Name Service: translates computer names into addresses and addresses into names. |
-| ---- | ----------- | ---------------------------------------- |
-|      | **Finger**  | Obtains information about a user from their profile. |
-|      | **Whois**   | Obtains information about domain registration. |
-|      | **Daytime** | Network Time Protocol. Gets the time from a server. |
-|      | **HTTP**    | Hypertext Transfer Protocol. Used for the Web. |
-|      | **SMTP**    | Simple Mail Transfer Protocol. Used for sending email. |
-|      | **POP**     | Post Office Protocol. Used for fetching email. |
-|      | **FTP**     | File Transfer Protocol. Exchanges files with a server. |
-|      | **NNTP**    | Network News Transfer Protocol. Posts or reads Usenet news. |
-|      | **TCP**     | Transmission Control Protocol. Basic Internet protocol. |
-|      | **UDP**     | User Datagram Protocol. Packet-based protocol. |
+| Type        | Description                                     |
+| ----------- | ----------------------------------------------- |
+| **DNS**     | Domain Name Service: translates computer names into addresses and addresses into names. |
+| **Finger**  | Obtains information about a user from their profile. |
+| **Whois**   | Obtains information about domain registration. |
+| **Daytime** | Network Time Protocol. Gets the time from a server. |
+| **HTTP**    | Hypertext Transfer Protocol. Used for the Web. |
+| **SMTP**    | Simple Mail Transfer Protocol. Used for sending email. |
+| **POP**     | Post Office Protocol. Used for fetching email. |
+| **FTP**     | File Transfer Protocol. Exchanges files with a server. |
+| **NNTP**    | Network News Transfer Protocol. Posts or reads Usenet news. |
+| **TCP**     | Transmission Control Protocol. Basic Internet protocol. |
+| **UDP**     | User Datagram Protocol. Packet-based protocol. |
 
 In addition, you can create handlers for other Internet protocols or make your own custom protocols.
 
@@ -156,13 +157,13 @@ scheme://user:pass@host:port/path
 
 [Network Resource Specification](#76862) lists the fields used in the above formats.
 
-|      | **scheme** | The name used to identify the type of resource, often the same as the protocol. For example, HTTP, FTP, and POP. |
-| ---- | ---------- | ---------------------------------------- |
-|      | **host**   | The network name or address for a machine. For example, www.rebol.com, cnn.com, accounting. |
-|      | **port**   | Port number on the host machine for the scheme being used. Normally there is a default for this, so it is not required most of the time. Examples: 21, 23, 80, 8000. |
-|      | **user**   | A user name to access the resource.      |
-|      | **pass**   | A password to verify the user name.      |
-|      | **path**   | A file path or some other method for referencing the resource. This is scheme dependent. Some schemes include patterns and script arguments (such as CGI). |
+| **scheme** | The name used to identify the type of resource, often the same as the protocol. For example, HTTP, FTP, and POP. |
+| ---------- | ---------------------------------------- |
+| **host**   | The network name or address for a machine. For example, www.rebol.com, cnn.com, accounting. |
+| **port**   | Port number on the host machine for the scheme being used. Normally there is a default for this, so it is not required most of the time. Examples: 21, 23, 80, 8000. |
+| **user**   | A user name to access the resource.      |
+| **pass**   | A password to verify the user name.      |
+| **path**   | A file path or some other method for referencing the resource. This is scheme dependent. Some schemes include patterns and script arguments (such as CGI). |
 
 Another way to identify a resource is with a REBOL `port` specification. In fact, when a URL is used, it is automatically converted into a port specification. A port specification can accept many more arguments than a URL, but it requires multiple lines to express.
 
