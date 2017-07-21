@@ -241,9 +241,6 @@ Standard Functions of the REBOL Language
 - [what-dir](/docs/words/wwhat-dir.html)
 - [write](/docs/words/wwrite.html)
 - [write-io](/docs/words/wwrite-io.html)
-- ​
-- ​
-- ​
 
 ## Series (String, Block, etc.) Functions
 
