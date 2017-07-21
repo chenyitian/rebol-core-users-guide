@@ -18,3 +18,4 @@
 [Values](docs/values.md)
 [Errors](docs/errors.md)
 [Console](docs/console.md)
+[Dictionary](docs/dictionary.md)
