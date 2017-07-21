@@ -1,13 +1,13 @@
-# Chapter 7 - Block Series
+# Block Series
 
 ## Contents:
 
-[1. Blocks of Blocks](#section-1)
-[2. Paths for Nested Blocks](#section-2)
-[3. Arrays](#section-3)
-  [3.1 Creating Arrays](#section-3.1)
-  [3.2 Initial Values](#section-3.2)
-[4. Composing Blocks](#section-4)
+- [1. Blocks of Blocks](#section-1)
+- [2. Paths for Nested Blocks](#section-2)
+- [3. Arrays](#section-3)
+  - [3.1 Creating Arrays](#section-3.1)
+  - [3.2 Initial Values](#section-3.2)
+- [4. Composing Blocks](#section-4)
 
 ## 1. Blocks of Blocks
 

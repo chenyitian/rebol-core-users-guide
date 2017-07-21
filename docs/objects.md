@@ -1,16 +1,16 @@
-# Chapter 10 - Objects
+# Objects
 
 ## Contents:
 
-[1. Overview](#section-1)
-[2. Making Objects](#section-2)
-[3. Cloning Objects](#section-3)
-[4. Accessing Objects](#section-4)
-[5. Object Functions](#section-5)
-[6. Prototype Objects](#section-6)
-[7. Referring to Self](#section-7)
-[8. Encapsulation](#section-8)
-[9. Reflective Properties](#section-9)
+- [1. Overview](#section-1)
+- [2. Making Objects](#section-2)
+- [3. Cloning Objects](#section-3)
+- [4. Accessing Objects](#section-4)
+- [5. Object Functions](#section-5)
+- [6. Prototype Objects](#section-6)
+- [7. Referring to Self](#section-7)
+- [8. Encapsulation](#section-8)
+- [9. Reflective Properties](#section-9)
 
 ## 1. Overview
 

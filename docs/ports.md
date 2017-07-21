@@ -1,23 +1,23 @@
-# Chapter 14 - Ports
+# Ports
 
 ## Contents:
 
-[1. Overview](#section-1)
-[2. Opening a Port](#section-2)
-  [2.1 The Open Function](#section-2.1)
-  [2.2 Open Refinements](#section-2.2)
-[3. Closing a Port](#section-3)
-[4. Reading from a Port](#section-4)
-[5. Writing to a Port](#section-5)
-[6. Updating a Port](#section-6)
-[7. Waiting for a Port](#section-7)
-[8. Other Port Modes](#section-8)
-  [8.1 Line Mode](#section-8.1)
-  [8.2 Read and Write Only](#section-8.2)
-  [8.3 Direct Port Access](#section-8.3)
-  [8.4 Skipping Data](#section-8.4)
-[9. File Permissions](#section-9)
-[10. Directory Ports](#section-10)
+- [1. Overview](#section-1)
+- [2. Opening a Port](#section-2)
+  - [2.1 The Open Function](#section-2.1)
+  - [2.2 Open Refinements](#section-2.2)
+- [3. Closing a Port](#section-3)
+- [4. Reading from a Port](#section-4)
+- [5. Writing to a Port](#section-5)
+- [6. Updating a Port](#section-6)
+- [7. Waiting for a Port](#section-7)
+- [8. Other Port Modes](#section-8)
+  - [8.1 Line Mode](#section-8.1)
+  - [8.2 Read and Write Only](#section-8.2)
+  - [8.3 Direct Port Access](#section-8.3)
+  - [8.4 Skipping Data](#section-8.4)
+- [9. File Permissions](#section-9)
+- [10. Directory Ports](#section-10)
 
 ## 1. Overview
 

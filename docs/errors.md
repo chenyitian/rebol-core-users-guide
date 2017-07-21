@@ -1,23 +1,23 @@
-# Appendix 2 - Errors
+# Errors
 
 ## Contents:
 
-[1. Overview](#section-1)
-[2. Error Categories](#section-2)
-  [2.1 Syntax Errors](#section-2.1)
-  [2.2 Script Errors](#section-2.2)
-  [2.3 Math Errors](#section-2.3)
-  [2.4 Access Errors](#section-2.4)
-  [2.5 User Errors](#section-2.5)
-  [2.6 Internal Errors](#section-2.6)
-[3. Catching Errors](#section-3)
-[4. Error Object](#section-4)
-[5. Generating Errors](#section-5)
-[6. Error Messages](#section-6)
-  [6.1 Syntax Errors](#section-6.1)
-  [6.2 Script Errors](#section-6.2)
-  [6.3 Access Errors](#section-6.3)
-  [6.4 Internal Errors](#section-6.4)
+- [1. Overview](#section-1)
+- [2. Error Categories](#section-2)
+  - [2.1 Syntax Errors](#section-2.1)
+  - [2.2 Script Errors](#section-2.2)
+  - [2.3 Math Errors](#section-2.3)
+  - [2.4 Access Errors](#section-2.4)
+  - [2.5 User Errors](#section-2.5)
+  - [2.6 Internal Errors](#section-2.6)
+- [3. Catching Errors](#section-3)
+- [4. Error Object](#section-4)
+- [5. Generating Errors](#section-5)
+- [6. Error Messages](#section-6)
+  - [6.1 Syntax Errors](#section-6.1)
+  - [6.2 Script Errors](#section-6.2)
+  - [6.3 Access Errors](#section-6.3)
+  - [6.4 Internal Errors](#section-6.4)
 
 ## 1. Overview
 

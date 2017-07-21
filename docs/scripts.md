@@ -1,27 +1,27 @@
-# Chapter 5 - Scripts
+# Scripts
 
 ## Contents:
 
-[1. Overview](#section-1)
-[1.1 File Suffix](#section-1.1)
-[1.2 Structure](#section-1.2)
-[2. Headers](#section-2)
-[3. Script Arguments](#section-3)
-  [3.1 Program Options](#section-3.1)
-[4. Running Scripts](#section-4)
-  [4.1 Loading Scripts](#section-4.1)
-  [4.2 Saving Scripts](#section-4.2)
-  [4.3 Commenting Scripts](#section-4.3)
-[5. Style Guide](#section-5)
-  [5.1 Formatting](#section-5.1)
-  [5.2 Word Names](#section-5.2)
-  [5.3 Script Headers](#section-5.3)
-  [5.4 Function Headers](#section-5.4)
-  [5.5 Script File Names](#section-5.5)
-  [5.6 Embedded Examples](#section-5.6)
-  [5.7 Embedded Debugging](#section-5.7)
-  [5.8 Minimize Globals](#section-5.8)
-[6. Script Cleanup](#section-6)
+- [1. Overview](#section-1)
+- [1.1 File Suffix](#section-1.1)
+- [1.2 Structure](#section-1.2)
+- [2. Headers](#section-2)
+- [3. Script Arguments](#section-3)
+  - [3.1 Program Options](#section-3.1)
+- [4. Running Scripts](#section-4)
+  - [4.1 Loading Scripts](#section-4.1)
+  - [4.2 Saving Scripts](#section-4.2)
+  - [4.3 Commenting Scripts](#section-4.3)
+- [5. Style Guide](#section-5)
+  - [5.1 Formatting](#section-5.1)
+  - [5.2 Word Names](#section-5.2)
+  - [5.3 Script Headers](#section-5.3)
+  - [5.4 Function Headers](#section-5.4)
+  - [5.5 Script File Names](#section-5.5)
+  - [5.6 Embedded Examples](#section-5.6)
+  - [5.7 Embedded Debugging](#section-5.7)
+  - [5.8 Minimize Globals](#section-5.8)
+- [6. Script Cleanup](#section-6)
 
 ## 1. Overview
 

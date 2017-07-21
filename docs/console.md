@@ -1,16 +1,16 @@
-# Appendix 3 - Console
+# Console
 
 **REBOL/Core Users GuideMain Table of ContentsSend Us Feedback**
 
 ## Contents:
 
-[1. Command Prompt](#section-1)
-[2. Result Indicator](#section-2)
-[3. History Recall](#section-3)
-[4. Busy Indicator](#section-4)
-[5. Advanced Console Operations](#section-5)
-  [5.1 Keyboard Input Sequences](#section-5.1)
-  [5.2 Terminal Output Sequences](#section-5.2)
+- [1. Command Prompt](#section-1)
+- [2. Result Indicator](#section-2)
+- [3. History Recall](#section-3)
+- [4. Busy Indicator](#section-4)
+- [5. Advanced Console Operations](#section-5)
+  - [5.1 Keyboard Input Sequences](#section-5.1)
+  - [5.2 Terminal Output Sequences](#section-5.2)
 
 ## 1. Command Prompt
 

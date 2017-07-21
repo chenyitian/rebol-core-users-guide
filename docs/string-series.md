@@ -1,21 +1,21 @@
-# Chapter 8 - String Series
+# String Series
 
 ## Contents:
 
-[1. String Functions](#section-1)
-[2. Converting Values to Strings](#section-2)
-  [2.1 Join](#section-2.1)
-  [2.2 Rejoin](#section-2.2)
-  [2.3 Form](#section-2.3)
-  [2.4 Reform](#section-2.4)
-  [2.5 Mold](#section-2.5)
-  [2.6 Remold](#section-2.6)
-  [2.7 String Spacing Functions](#section-2.7)
-  [2.8 Uppercase and Lowercase](#section-2.8)
-  [2.9 Checksum](#section-2.9)
-  [2.10 Compression and Decompression](#section-2.10)
-  [2.11 Number Base Conversion](#section-2.11)
-  [2.12 Internet Hexadecimal Decoding](#section-2.12)
+- [1. String Functions](#section-1)
+- [2. Converting Values to Strings](#section-2)
+  - [2.1 Join](#section-2.1)
+  - [2.2 Rejoin](#section-2.2)
+  - [2.3 Form](#section-2.3)
+  - [2.4 Reform](#section-2.4)
+  - [2.5 Mold](#section-2.5)
+  - [2.6 Remold](#section-2.6)
+  - [2.7 String Spacing Functions](#section-2.7)
+  - [2.8 Uppercase and Lowercase](#section-2.8)
+  - [2.9 Checksum](#section-2.9)
+  - [2.10 Compression and Decompression](#section-2.10)
+  - [2.11 Number Base Conversion](#section-2.11)
+  - [2.12 Internet Hexadecimal Decoding](#section-2.12)
 
 ## 1. String Functions
 
