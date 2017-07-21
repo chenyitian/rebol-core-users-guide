@@ -52,12 +52,12 @@ For other REBOL products, installation may require you to provide additional inf
 
 REBOL/Core includes these primary distribution files:
 
-|      | **rebol (.exe)** | An executable program that starts the REBOL console. |
-| ---- | ---------------- | ---------------------------------------- |
-|      | **rebol.r**      | A system bootstrap file. (Not required to run REBOL.) |
-|      | **setup.html**   | Information about set-up and installation. |
-|      | **changes.html** | Changes found in recent releases.        |
-|      | **license.txt**  | REBOL license agreement.                 |
+| **rebol (.exe)** | An executable program that starts the REBOL console. |
+| ---------------- | ---------------------------------------- |
+| **rebol.r**      | A system bootstrap file. (Not required to run REBOL.) |
+| **setup.html**   | Information about set-up and installation. |
+| **changes.html** | Changes found in recent releases.        |
+| **license.txt**  | REBOL license agreement.                 |
 
 Other files may be provided, depending on the REBOL product and version.
 
@@ -150,19 +150,19 @@ The **secure** function provides flexibility in setting and controlling the secu
 
 Security settings use a REBOL dialect, that is, a language within a language. The normal dialect consists of a block of paired values. The `first` value in the pair specifies what is being secured:
 
-|      | **file** | specifies file security.    |
-| ---- | -------- | --------------------------- |
-|      | **net**  | specifies network security. |
+| **file** | specifies file security.    |
+| -------- | --------------------------- |
+| **net**  | specifies network security. |
 
 A file name or directory path allows you to specify security levels for a specific file or directory.
 
 The `second` value in the pair specifies the level of security. This can be either a security level word or a block of words. The security level words are:
 
-|      | **allow** | allow access with no restrictions.       |
-| ---- | --------- | ---------------------------------------- |
-|      | **ask**   | ask permission if any restricted access occurs. |
-|      | **throw** | throw an error if any restricted access occurs. |
-|      | **quit**  | quit this REBOL session if any restricted access occurs. |
+| **allow** | allow access with no restrictions.       |
+| --------- | ---------------------------------------- |
+| **ask**   | ask permission if any restricted access occurs. |
+| **throw** | throw an error if any restricted access occurs. |
+| **quit**  | quit this REBOL session if any restricted access occurs. |
 
 For example, to allow all network access, but to quit on any file access:
 
@@ -176,10 +176,10 @@ secure [
 
 If a block is used instead of a security level word, it can contain pairs of security levels and access types. This lets you specify a greater level of detail about the security you require. The access types allowed are:
 
-|      | **read**  | controls read access.                    |
-| ---- | --------- | ---------------------------------------- |
-|      | **write** | controls write, delete and rename access. |
-|      | **all**   | controls all access.                     |
+| **read**  | controls read access.                    |
+| --------- | ---------------------------------------- |
+| **write** | controls write, delete and rename access. |
+| **all**   | controls all access.                     |
 
 The pairs are processed in the order they appear, with later pairs modifying the effect of earlier pairs. This permits setting one type of access without explicitly setting all others. For example:
 
@@ -320,10 +320,10 @@ REBOL options script arguments
 
 Where:
 
-|      | **options**   | one or more of the program options. See [Specifying Options](#_Toc487519647) below for more details. |
-| ---- | ------------- | ---------------------------------------- |
-|      | **script**    | the file name of the script you want to run. If the file name contains spaces, it should be typed in quotes. |
-|      | **arguments** | the arguments passed to the script as a string. These arguments can be accessed from within the script. |
+| **options**   | one or more of the program options. See [Specifying Options](#_Toc487519647) below for more details. |
+| ------------- | ---------------------------------------- |
+| **script**    | the file name of the script you want to run. If the file name contains spaces, it should be typed in quotes. |
+| **arguments** | the arguments passed to the script as a string. These arguments can be accessed from within the script. |
 
 All of the above arguments are optional, and any combination is permitted.
 
@@ -344,7 +344,81 @@ If the file name contains spaces, it must be provided in double quotes.
 
 ### 2.7 Specifying Options
 
-[Program options are identifed with a plus (+) or minus (-) before a character or by a double dash (--) before a word. This is a standard practice for specifying program options on most operating systems.Here are several examples of how options are used.To run a script with an option, such as the `-s` option, which evaluates the script with security turned off, type:`REBOL -s script.r`To obtain usage information about REBOL, type:`REBOL -?REBOL --help`To run REBOL without opening a new window (this is done when you need to redirect output to a file or server), type:`REBOL -wREBOL --nowindow`To prevent the printout of startup information which is useful if you are redirecting the output to a file or server, type:`REBOL -qREBOL --quiet`To evaluate a REBOL expression from the command line, type:`REBOL --do "print 1 + 2"REBOL --do "verbose: true" script.r`This lets you evaluate a remote script with a line such as:`REBOL --do "do http://www.rebol.com/speed.r"`To change the security level of REBOL, type:`REBOL -s script.rREBOL --secure none script.r`]()[To use REBOL scripts for CGI (see the ]()[CGI - Common Gateway Interface Section](rebolcore-13.html#_Toc487519913) of the [Network Protocols Chapter](rebolcore-13.html#_Toc487519750) for more information), type:`REBOL -c cgi-script.rREBOL --cgi`Multiple options are also allowed. Multiple single character options can be included together. Multiple full word options must be separated with spaces.`REBOL -cs cgi-script.rREBOL --cgi --secure none cgi-script.r`The above example runs in CGI mode, with security turned off. The shorthand method is required for various web servers that restrict the number of arguments allowed on the command line (such as the Apache server on Linux).
+Program options are identifed with a plus (+) or minus (-) before a character or by a double dash (--) before a word. This is a standard practice for specifying program options on most operating systems.
+
+Here are several examples of how options are used.
+
+To run a script with an option, such as the `-s` option, which evaluates the script with security turned off, type:
+
+```
+REBOL -s script.r
+
+```
+
+To obtain usage information about REBOL, type:
+
+```
+REBOL -?
+REBOL --help
+
+```
+
+To run REBOL without opening a new window (this is done when you need to redirect output to a file or server), type:
+
+```
+REBOL -w
+REBOL --nowindow
+
+```
+
+To prevent the printout of startup information which is useful if you are redirecting the output to a file or server, type:
+
+```
+REBOL -q
+REBOL --quiet
+
+```
+
+To evaluate a REBOL expression from the command line, type:
+
+```
+REBOL --do "print 1 + 2"
+REBOL --do "verbose: true" script.r
+
+```
+
+This lets you evaluate a remote script with a line such as:
+
+```
+REBOL --do "do http://www.rebol.com/speed.r"
+
+```
+
+To change the security level of REBOL, type:
+
+```
+REBOL -s script.r
+REBOL --secure none script.r
+
+```
+
+To use REBOL scripts for CGI (see the [CGI - Common Gateway Interface Section](rebolcore-13.html#_Toc487519913) of the [Network Protocols Chapter](rebolcore-13.html#_Toc487519750) for more information), type:
+
+```
+REBOL -c cgi-script.r
+REBOL --cgi
+
+```
+
+Multiple options are also allowed. Multiple single character options can be included together. Multiple full word options must be separated with spaces.
+
+```
+REBOL -cs cgi-script.r
+REBOL --cgi --secure none cgi-script.r
+
+```
+
+The above example runs in CGI mode, with security turned off. The shorthand method is required for various web servers that restrict the number of arguments allowed on the command line (such as the Apache server on Linux).
 
 ### 2.8 File Redirection
 
@@ -692,7 +766,6 @@ Found these words:
      to-lit-path    (function)
      to-path        (function)
      to-set-path    (function)
-
 ```
 
 You can also search for all globally defined words that are of a given data type. For example, to list all words that are function! data types, type:

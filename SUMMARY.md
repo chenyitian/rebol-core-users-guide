@@ -1,5 +1,6 @@
 #SUMMARY
 
+* [README](README.md)
 * [Introduction](docs/introduction.md)
 * [Operation](docs/operation.md)
 * [Quick Tour](docs/quick-tour.md)
