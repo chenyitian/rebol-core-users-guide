@@ -1,12 +1,7 @@
-# REBOL 3 Documentation
+# REBOL/Core Users Guide
 
-**This is the official documentation for the REBOL language.**
+![img](static/img/rcugcover-120.gif)
 
-## Sections
+For REBOL Version 2.3
 
-- [Guide](http://www.rebol.com/r3/docs/guide.html) - a short practical introduction
-- [Concepts](http://www.rebol.com/r3/docs/concepts.html) - deeper descriptions and theory
-- [Functions](http://www.rebol.com/r3/docs/functions.html) - standard functions (dictionary)
-- [Datatypes](http://www.rebol.com/r3/docs/datatypes.html) - built-in datatypes
-- [Errors](http://www.rebol.com/r3/docs/errors.html) - catalog of messages
-- [TOC](http://www.rebol.com/r3/docs/toc.html) - the full table of contents
+Copyright 2005 REBOL Technologies
