@@ -1,4 +1,6 @@
-# [Summary](/README.md)
+# Summary
+
+- [README](/README.md)
 
 ## REBOL/Core Users Guide
 
